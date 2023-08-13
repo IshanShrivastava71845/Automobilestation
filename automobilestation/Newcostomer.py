@@ -38,8 +38,8 @@ def addcustomer():
     root.minsize(width=400,height=400)
     root.geometry("600x500")
 
-    mypass = "OnkarBelure8668"
-    mydatabase="automobilestation"
+    mypass = ""
+    mydatabase=""
 
     con = pymysql.connect(host="localhost",user="root",password=mypass,database=mydatabase)
     cur = con.cursor()
