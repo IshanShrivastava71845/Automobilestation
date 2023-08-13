@@ -6,8 +6,8 @@ from Removerequest import *
 from Viewrequests import *
 
 
-mypass = "OnkarBelure8668"
-mydatabase="automobilestation"
+mypass = ""
+mydatabase=""
 
 con = pymysql.connect(host="localhost",user="root",password=mypass,database=mydatabase)
 cur = con.cursor()
