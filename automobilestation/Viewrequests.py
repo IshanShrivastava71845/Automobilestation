@@ -3,8 +3,8 @@ from PIL import ImageTk,Image
 from tkinter import messagebox
 import pymysql
 
-mypass = "OnkarBelure8668"
-mydatabase="automobilestation"
+mypass = ""
+mydatabase=""
 
 con = pymysql.connect(host="localhost",user="root",password=mypass,database=mydatabase)
 cur = con.cursor()
