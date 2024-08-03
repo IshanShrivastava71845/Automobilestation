@@ -1,4 +1,1 @@
-Don't forget to create the database and enter in main.py
-Make sure the sql password is corrrect.
-Import all the files before running the code
-You can change the dimensions of the opening window from main.py
+Remember to create the database and update `main.py` with the correct SQL password. Ensure all files are imported before running the code. You can also adjust the dimensions of the opening window in `main.py`.
